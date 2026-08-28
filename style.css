@@ -1,9 +1,5 @@
-
-body {
-    background-color: rgb(70, 0, 136);
-}
-
 h1 {
     color: rgb(208, 102, 250);
     font-size: 75px;
+    text-align: center; /* Esse é o truque para colocar no meio! */
 }
