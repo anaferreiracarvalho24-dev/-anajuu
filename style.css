@@ -3,3 +3,27 @@ h1 {
     font-size: 75px;
     text-align: center; /* Esse é o truque para colocar no meio! */
 }
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+body {
+    background-color: #121212; /* Fundo escuro estilo aplicativo de música */
+}
+
+/* Truque para alinhar na mesma fileira */
+.fileira {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+iframe {
+    width: 320px;
+    height: 180px;
+    border-radius: 8px; /* Cantos arredondados no vídeo! */
+}
